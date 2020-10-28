@@ -8,6 +8,7 @@
 - [x] React.js
 - [x] Styled Components
 - [x] Redux
+- [x] Redux-Saga
 - [x] React Icons
 - [x] React Router
 - [x] Redux-persist
