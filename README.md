@@ -38,7 +38,7 @@ styles: the global styles by styled-components
 
 ## Starting Development Environment
 
-1. Run `npm install` or `yarn install`.<br />
+1. Run `npm install`.<br />
 2. Run `npm start` and access `http://localhost:3000`.<br />
 
 ## Design Decision
