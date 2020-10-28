@@ -1,0 +1,10 @@
+const PinActionTypes = {
+    PIN_ITEM: 'PIN_ITEM',
+    UNPIN_ITEM: 'UNPIN_ITEM',
+    UPDATE_TAGS: 'UPDATE_TAGS',
+    CLEAR_ALL: 'CLEAR_RESULTS',
+    DELETE_A_TAG: 'DELETE_A_TAG',
+    FETCH_RESULT_FAILURE: 'FETCH_RESULT_FAILURE'
+};
+
+export default PinActionTypes;
