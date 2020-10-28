@@ -6,6 +6,7 @@
 
 - [x] JavaScript
 - [x] React.js
+- [x] Material-UI
 - [x] Styled Components
 - [x] Redux
 - [x] Redux-Saga
