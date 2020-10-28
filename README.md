@@ -1,4 +1,7 @@
 <h1>Finder</h1>
+
+[![Build Status](https://travis-ci.com/zwang759/Finder.svg?branch=master)](https://travis-ci.com/zwang759/Finder) 
+
 <p> A search engine UI that support search through twitter, slack, contacts, calendar, and files</p>
 <p>Click <a href="https://acme-search-29fb2.web.app">here</a> to live preview.</p>
 
