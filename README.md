@@ -14,6 +14,7 @@
 - [x] Redux-persist
 - [x] Redux-logger
 - [x] Moment.js
+- [x] Firebase
 
 ## Folders
 dashboard: contains the homepage
