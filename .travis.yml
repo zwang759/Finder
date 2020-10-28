@@ -4,5 +4,13 @@ node_js:
 cache:
   directories:
     - node_modules
+warnings_are_errors: false
+install:
+  - npm install
 script:
   - npm run build
+deploy:
+  provider: firebase
+  skip_cleanup: true
+  token:
+    secure: "dQiKnY83qyvAcwf5M9wXxw1njf8K7JmDUrPMz2OiA2me+1D5PNbUZFQnDie13FhBKmFiwiCBtHfVhak44rBvN1xUnMwDlaFwBzw3SRL/bC95X4VE56pqJd9dJJHwdLNNbbcsNKPMw+Ayz2fA5SmxuJqCjWj9kc9ANJtNXzW6/kjfqua3z4avmrnHGXdYnj5R9fSbNTZ9sDlIuDUu++LH+CbwdMc99xPUEcjJNM56ORj0A561BQdYZANUfpntL82RNpi/ZA4BEwFRVK72RGWsm/BEiOGf5F0mpvKcJqTva+LjlzA5Y0xQn14JHfweFnt5mpEJf3KDrpXQ8GhfzJnsb5TZ/NK+29mjN9QqSTo8EFXnd6gTNUL8vblR2Ekj+CzvnEi+FbQ/Sh7YB0kPanFi1lmdkgh9Kp2VVN+AHrrC5YupA/m+0uPostE82nlzKhV0w4SHDx1EXPuuPBUlGhScQ1XicqJnFi2i3f8JLZE5npwI5YMW8iI8L2AGsykYMz0uc1Ut1Con9RGy4vjHPQGQ0+v+RDvQAjrAjXBaeNZTRwjo8NYmn6gxpc4NnwcGf/e+PcJTEslz85vri73nUBo4Su0z/Dyk7rCtmd/Y99oFSNyvyb9RhipjMJziaGFVbokv5dEgESj0YhccbzHazu4br95Ar9HjGSEaIIaS8GXRrLk="
